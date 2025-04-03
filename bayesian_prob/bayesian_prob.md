@@ -1,5 +1,7 @@
 The first thing we covered in my machine learning class was Bayesian probability. I believe this is because it is a basic version of machine learning, Bayesian probability starts with an initial belief, then updates as things are change.
 I will be implementing a naive bayes classifier on some pokemon data.
+# Todo
+Make the predict function do the operation by vector not by a loop
 # File Structure
 - Bayesian_prob.md: You are here! This will contain my notes, thoughts, and meta info.
 - bayesian_prob.py: Here I will create a script to calculate bayesian probability and output the stats to a csv.
