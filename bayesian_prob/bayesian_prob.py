@@ -36,9 +36,9 @@ def predict(test_data, type_priors, means, variances):
                 likelihood *= pdf  # Multiply all likelihoods
 
             type_probs[type] = numpy.log(likelihood * prior)  # Multiply by prior
-        #best_class = class with highest probability
+        #best_pred = class with highest probability
         best_pred = max(type_probs,key=type_probs.get)
-        #append best_class to predictions
+        #append best_pred to predictions
         predictions.append([row['species'], best_pred])
     return predictions
 
